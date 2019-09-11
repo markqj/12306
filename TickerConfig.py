@@ -8,12 +8,11 @@ TICKET_TYPE = 2
 
 # 出发日期(list) "2018-01-06", "2018-01-07"
 STATION_DATES = [
-    "2019-09-30"
+    "2019-10-01"
 ]
 
 # 填入需要购买的车次(list)，"G1353"
 STATION_TRAINS = [
-    "",
     "",
 ]
 
@@ -46,12 +45,11 @@ IS_MORE_TICKET = True
 # - "李四"
 TICKET_PEOPLES = [
     "",
-    "",
 ]
 
 # 12306登录账号
 USER = ""
-PWD = ""
+PWD = "QWERTY"
 
 # 加入小黑屋时间默认为5分钟，此功能为了防止僵尸票导致一直下单不成功错过正常的票
 TICKET_BLACK_LIST_TIME = 5
@@ -81,18 +79,11 @@ EMAIL_CONF = {
     "host": "",
 }
 
-# 是否开启 pushbear 微信提醒， 使用前需要前往 http://pushbear.ftqq.com 扫码绑定获取 send_key 并关注获得抢票结果通知的公众号
-PUSHBEAR_CONF = {
-    "is_pushbear": False,
-    "send_key": ""
-}
-
 # 是否开启 server酱 微信提醒， 使用前需要前往 http://sc.ftqq.com/3.version 扫码绑定获取 SECRET 并关注获得抢票结果通知的公众号
 SERVER_CHAN_CONF = {
     "is_server_chan": False,
     "secret": ""
 }
-
 
 # 是否开启cdn查询，可以更快的检测票票 1为开启，2为关闭
 IS_CDN = 1
@@ -134,4 +125,4 @@ PASSENGER_TICKER_STR = {
 }
 
 # 软件版本
-RE_VERSION = "1.1.108"
+RE_VERSION = "1.1.110"
